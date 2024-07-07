@@ -1,0 +1,31 @@
+/** @type {import('next').NextConfig} */
+
+const env = process.env.NODE_ENV || 'development'
+
+const config = {
+  development: {
+    baseurl_app: 'http://localhost:3000',
+    auth0_domain: 'auth0_domain',
+    auth0_clientId: 'auth0_clientId',
+    auth0_redirectUri: 'localhost:3000',
+    auth0_audience: 'auth0_audience',
+    auth0_scope: 'read:current_user read:roles'
+  },
+  production: {
+    baseurl_app: 'http://localhost:3000',
+    auth0_domain: 'auth0_domain',
+    auth0_clientId: 'auth0_clientId',
+    auth0_redirectUri: 'localhost:3000',
+    auth0_audience: 'auth0_audience',
+    auth0_scope: 'read:current_user read:roles'
+  }
+}[env]
+
+const nextConfig = {
+  reactStrictMode: true,
+}
+
+module.exports = {
+  ...nextConfig,
+  env: { ...config }
+}

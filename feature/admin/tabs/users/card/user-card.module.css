@@ -1,0 +1,18 @@
+.toggle {
+  cursor: pointer;
+}
+.separator {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #fff;
+}
+.buttons {
+  margin-top: 16px;
+}
+.buttons > button {
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+.container div {
+  word-break: break-word;
+}

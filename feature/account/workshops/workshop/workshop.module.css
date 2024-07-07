@@ -1,0 +1,14 @@
+.name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.day {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.attending {
+  font-weight: bold;
+}
+.actions {
+  margin-top: 16px;
+}

@@ -1,0 +1,13 @@
+.container {
+  border-top: var(--border-default);
+  background: #f2f2f2;
+  padding: 40px 25px;
+  text-align: center;
+  color: #787777;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    height: 70px;
+    padding: 40px 25px;
+  }
+}

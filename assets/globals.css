@@ -1,0 +1,59 @@
+@import '@fontsource/roboto/300.css';
+@import '@fontsource/roboto/400.css';
+@import '@fontsource/roboto/500.css';
+@import '@fontsource/roboto/700.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #ff8000;
+  --secondary: #ff6a5d;
+  --box-shadow-bottom: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  --font: rgba(0, 0, 0, 0.87);
+  --font-secondary: #a7a7a7;
+  --font-secondary2: #72808f;
+  --gray-background: #f5f8fc;
+  --border-default: 1px solid rgba(228, 230, 234, 0.6);
+  --restrict-width: 1400px;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #ff5245;
+  --light: #f5f8fc;
+  --dark: #343a40;
+  --gutter: 25px;
+  --padding: 50px;
+  --font-family-default: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --font-family-blog: 'Fira Sans Condensed', sans-serif;
+  --font-Righteous: 'Righteous', cursive;
+  --font-Roboto: 'Roboto', sans-serif;
+  --font-Inter: 'Inter', sans-serif;
+}

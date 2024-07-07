@@ -1,0 +1,7 @@
+.cards {
+  display: flex;
+}
+.cards > div:not(:last-child) {
+  margin-right: unset;
+  margin-right: 16px;
+}

@@ -1,0 +1,39 @@
+.container {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f9f9f9;
+}
+.main,
+.motionDiv {
+  flex: 1;
+}
+.main {
+  margin: 0 auto;
+  padding: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.pageTitle {
+  color: var(--primary);
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+  align-self: center;
+}
+.contentHeader {
+  margin-bottom: 25px;
+  height: 33px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 800px) {
+  .main {
+    padding: 25px 10px;
+  }
+}

@@ -1,0 +1,28 @@
+.name {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.description {
+  margin-bottom:16px;
+}
+.day {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.attendant {
+  font-weight: bold;
+}
+.attending {
+  font-weight: bold;
+}
+.toggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+.expandedTitle {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
